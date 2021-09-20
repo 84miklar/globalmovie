@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/globalmovie/static/css/main.a617e044.chunk.css",
-    "main.js": "/globalmovie/static/js/main.1d4fff34.chunk.js",
-    "main.js.map": "/globalmovie/static/js/main.1d4fff34.chunk.js.map",
-    "runtime-main.js": "/globalmovie/static/js/runtime-main.98b48f19.js",
-    "runtime-main.js.map": "/globalmovie/static/js/runtime-main.98b48f19.js.map",
-    "static/js/2.f9626c3c.chunk.js": "/globalmovie/static/js/2.f9626c3c.chunk.js",
-    "static/js/2.f9626c3c.chunk.js.map": "/globalmovie/static/js/2.f9626c3c.chunk.js.map",
-    "static/js/3.6bb55422.chunk.js": "/globalmovie/static/js/3.6bb55422.chunk.js",
-    "static/js/3.6bb55422.chunk.js.map": "/globalmovie/static/js/3.6bb55422.chunk.js.map",
+    "main.css": "/globalmovie/static/css/main.215a5905.chunk.css",
+    "main.js": "/globalmovie/static/js/main.2d6fedc8.chunk.js",
+    "main.js.map": "/globalmovie/static/js/main.2d6fedc8.chunk.js.map",
+    "runtime-main.js": "/globalmovie/static/js/runtime-main.9184e752.js",
+    "runtime-main.js.map": "/globalmovie/static/js/runtime-main.9184e752.js.map",
+    "static/js/2.665026ba.chunk.js": "/globalmovie/static/js/2.665026ba.chunk.js",
+    "static/js/2.665026ba.chunk.js.map": "/globalmovie/static/js/2.665026ba.chunk.js.map",
+    "static/js/3.7fb01cd6.chunk.js": "/globalmovie/static/js/3.7fb01cd6.chunk.js",
+    "static/js/3.7fb01cd6.chunk.js.map": "/globalmovie/static/js/3.7fb01cd6.chunk.js.map",
     "index.html": "/globalmovie/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/globalmovie/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.f9626c3c.chunk.js.LICENSE.txt": "/globalmovie/static/js/2.f9626c3c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/globalmovie/static/media/logo.6ce24c58.svg"
+    "static/css/main.215a5905.chunk.css.map": "/globalmovie/static/css/main.215a5905.chunk.css.map",
+    "static/js/2.665026ba.chunk.js.LICENSE.txt": "/globalmovie/static/js/2.665026ba.chunk.js.LICENSE.txt",
+    "static/media/HomeView.css": "/globalmovie/static/media/woman_eating.c377c3fb.jpg",
+    "static/media/AboutView.css": "/globalmovie/static/media/couple.60797df0.jpg",
+    "static/media/FourOFour.css": "/globalmovie/static/media/ofGravity.f70295b5.jpg",
+    "static/media/FavouritesView.css": "/globalmovie/static/media/popcorn.972bff64.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.98b48f19.js",
-    "static/js/2.f9626c3c.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.1d4fff34.chunk.js"
+    "static/js/runtime-main.9184e752.js",
+    "static/js/2.665026ba.chunk.js",
+    "static/css/main.215a5905.chunk.css",
+    "static/js/main.2d6fedc8.chunk.js"
   ]
 }
