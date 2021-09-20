@@ -1,0 +1,93 @@
+.movieView__container {
+  background-image: url("../../shared/img/popcorn.jpg");
+  background-size: cover;
+  background-position: right bottom;
+  text-align: center;
+  padding: 1em;
+}
+
+.movie__container {
+  border: solid 4px var(--clr-accent);
+  background-color: var(--clr-secondary-opacity);
+  border-radius: 10px;
+  width: 55vw;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+.movie__backdrop {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 8px 8px 8px #212121;
+}
+
+.movie__data {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr, 2fr, 2fr;
+  gap: 2em;
+}
+
+.movie__title {
+  text-align: center;
+}
+.movie__card {
+  grid-column: 2;
+  grid-row: 4;
+  text-align: center;
+  justify-self: end;
+}
+.overview {
+  grid-column: 3;
+  grid-row: 4;
+  align-self: center;
+  justify-self: center;
+  width: 25vw;
+  font-size: 1.3rem;
+  text-align: left;
+}
+.release__date {
+  grid-column-start: 2;
+  grid-row: 3;
+  justify-self: center;
+  font-size: 1.5rem;
+}
+
+.voting {
+  grid-column-start: 3;
+  grid-row: 3;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.btns {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+@media screen and (max-width: 950px) {
+  .movie__data {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    place-items: center;
+    margin-top: 0.2em;
+  }
+  .overview {
+    width: 90%;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .voting {
+    order: -1;
+  }
+  .release__date {
+    order: -1;
+  }
+  .movie__container {
+    width: 80vw;
+  }
+}

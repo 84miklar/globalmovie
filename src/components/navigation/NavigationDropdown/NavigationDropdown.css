@@ -1,0 +1,31 @@
+.navigationDropdown__container {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .navigationDropdown__container {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 10rem;
+    list-style: none;
+    background-color: var(--clr-primary-dark);
+    color: var(--clr-accent);
+  }
+  .navigationDropdown__container button {
+    background-color: var(--clr-primary-dark);
+    color: var(--clr-accent);
+    border: none;
+    border-radius: 0;
+    padding: 0.8em;
+    font-size: 1.2rem;
+    width: 100%;
+    margin: 0;
+  }
+  .navigationDropdown__container button:hover,
+  .navigationDropdown__container button:focus {
+    cursor: pointer;
+    background-color: var(--clr-primary);
+  }
+}

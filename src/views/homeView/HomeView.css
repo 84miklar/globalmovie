@@ -1,0 +1,92 @@
+.home__container {
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+}
+.search__container {
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  align-content: center;
+
+  margin-bottom: 3em;
+}
+.title {
+  background-image: url("../../shared/img/woman_eating.jpg");
+  background-size: cover;
+  box-shadow: 0 0 30px 30px black inset;
+  display: flex;
+  justify-content: center;
+  color: var(--clr-accent);
+  width: 45em;
+  height: 30em;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+.title h1 {
+  text-align: right;
+  font-size: 2.5rem;
+  text-shadow: 3px 3px var(--clr-primary);
+}
+
+.card__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3em;
+  margin: 1em;
+}
+.input {
+  height: 2rem;
+  width: 20rem;
+  font-size: 1.3rem;
+  margin: 2em;
+  border-radius: 5px;
+  border: none;
+  padding: 0.8em;
+}
+.result__container {
+  background-image: url("../../shared/img/chairs.jpg");
+  background-size: cover;
+  box-shadow: 0 0 15px 15px black inset;
+  background-position: center;
+  min-height: 40vh;
+  margin: 0;
+}
+.result__header {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.movie__poster:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .result__container {
+    background-image: none;
+  }
+
+  .title {
+    background-image: none;
+    width: 20em;
+    height: 12em;
+  }
+
+  .title h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .input {
+    width: 16rem;
+  }
+  .card__container {
+    flex-direction: column;
+    align-content: center;
+    gap: 1em;
+  }
+}
