@@ -9,6 +9,9 @@ import { MovieView } from "../views/movieView/MovieView";
 import { SignInView } from "../views/signin/SignInView";
 import { FavouritesView } from "../views/favouritesView/FavouritesView";
 import { UserContext } from "../shared/provider/UserProvider";
+import { UpcomingView } from "../views/upcomingView/UpcomingView";
+import { HighestRankView } from "../views/highestRankView/HighestRankView";
+import { NowPlayingView } from "../views/nowplayingView/NowPlayingView";
 
 export const Routes = ({ children }) => {
   const [authenticatedUser, setAuthenticatedUser] = useContext(UserContext);
@@ -29,7 +32,7 @@ export const Routes = ({ children }) => {
   };
 
   return (
-    <BrowserRouter basename="/globalmovie">
+    <BrowserRouter basename="/react-exam">
       {children}
       <Switch>
         <Route exact path={RoutingPath.aboutView} component={AboutView} />
@@ -44,6 +47,13 @@ export const Routes = ({ children }) => {
           component={blockIfNotAuthentificatedUser(FavouritesView)}
         />
         <Route exact path={RoutingPath.movieView} component={MovieView} />
+        <Route exact path={RoutingPath.upcomingView} component={UpcomingView} />
+        <Route exact path={RoutingPath.nowPlaying} component={NowPlayingView} />
+        <Route
+          exact
+          path={RoutingPath.topRatedView}
+          component={HighestRankView}
+        />
         <Route exact path={RoutingPath.homeView} component={HomeView} />
         <Route path="*">
           <FourOFour />
@@ -52,4 +62,3 @@ export const Routes = ({ children }) => {
     </BrowserRouter>
   );
 };
-//http://localhost:3002/
