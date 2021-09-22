@@ -32,7 +32,7 @@ export const Routes = ({ children }) => {
   };
 
   return (
-    <BrowserRouter basename="/react-exam">
+    <BrowserRouter basename="/globalmovie">
       {children}
       <Switch>
         <Route exact path={RoutingPath.aboutView} component={AboutView} />
