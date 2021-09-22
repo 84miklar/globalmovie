@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/globalmovie/static/css/main.29fb15db.chunk.css",
+    "main.css": "/globalmovie/static/css/main.2a0d5d79.chunk.css",
     "main.js": "/globalmovie/static/js/main.6e6fa348.chunk.js",
     "main.js.map": "/globalmovie/static/js/main.6e6fa348.chunk.js.map",
     "runtime-main.js": "/globalmovie/static/js/runtime-main.5e4e4b26.js",
@@ -10,7 +10,7 @@
     "static/js/3.cf18bb5e.chunk.js": "/globalmovie/static/js/3.cf18bb5e.chunk.js",
     "static/js/3.cf18bb5e.chunk.js.map": "/globalmovie/static/js/3.cf18bb5e.chunk.js.map",
     "index.html": "/globalmovie/index.html",
-    "static/css/main.29fb15db.chunk.css.map": "/globalmovie/static/css/main.29fb15db.chunk.css.map",
+    "static/css/main.2a0d5d79.chunk.css.map": "/globalmovie/static/css/main.2a0d5d79.chunk.css.map",
     "static/js/2.49602ed6.chunk.js.LICENSE.txt": "/globalmovie/static/js/2.49602ed6.chunk.js.LICENSE.txt",
     "static/media/HomeView.css": "/globalmovie/static/media/woman_eating.c377c3fb.jpg",
     "static/media/AboutView.css": "/globalmovie/static/media/couple.60797df0.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.5e4e4b26.js",
     "static/js/2.49602ed6.chunk.js",
-    "static/css/main.29fb15db.chunk.css",
+    "static/css/main.2a0d5d79.chunk.css",
     "static/js/main.6e6fa348.chunk.js"
   ]
 }
