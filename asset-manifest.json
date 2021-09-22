@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/globalmovie/static/css/main.215a5905.chunk.css",
-    "main.js": "/globalmovie/static/js/main.2d6fedc8.chunk.js",
-    "main.js.map": "/globalmovie/static/js/main.2d6fedc8.chunk.js.map",
-    "runtime-main.js": "/globalmovie/static/js/runtime-main.9184e752.js",
-    "runtime-main.js.map": "/globalmovie/static/js/runtime-main.9184e752.js.map",
-    "static/js/2.665026ba.chunk.js": "/globalmovie/static/js/2.665026ba.chunk.js",
-    "static/js/2.665026ba.chunk.js.map": "/globalmovie/static/js/2.665026ba.chunk.js.map",
-    "static/js/3.7fb01cd6.chunk.js": "/globalmovie/static/js/3.7fb01cd6.chunk.js",
-    "static/js/3.7fb01cd6.chunk.js.map": "/globalmovie/static/js/3.7fb01cd6.chunk.js.map",
+    "main.css": "/globalmovie/static/css/main.0b44b28b.chunk.css",
+    "main.js": "/globalmovie/static/js/main.54fe2c6e.chunk.js",
+    "main.js.map": "/globalmovie/static/js/main.54fe2c6e.chunk.js.map",
+    "runtime-main.js": "/globalmovie/static/js/runtime-main.5e4e4b26.js",
+    "runtime-main.js.map": "/globalmovie/static/js/runtime-main.5e4e4b26.js.map",
+    "static/js/2.49602ed6.chunk.js": "/globalmovie/static/js/2.49602ed6.chunk.js",
+    "static/js/2.49602ed6.chunk.js.map": "/globalmovie/static/js/2.49602ed6.chunk.js.map",
+    "static/js/3.cf18bb5e.chunk.js": "/globalmovie/static/js/3.cf18bb5e.chunk.js",
+    "static/js/3.cf18bb5e.chunk.js.map": "/globalmovie/static/js/3.cf18bb5e.chunk.js.map",
     "index.html": "/globalmovie/index.html",
-    "static/css/main.215a5905.chunk.css.map": "/globalmovie/static/css/main.215a5905.chunk.css.map",
-    "static/js/2.665026ba.chunk.js.LICENSE.txt": "/globalmovie/static/js/2.665026ba.chunk.js.LICENSE.txt",
+    "static/css/main.0b44b28b.chunk.css.map": "/globalmovie/static/css/main.0b44b28b.chunk.css.map",
+    "static/js/2.49602ed6.chunk.js.LICENSE.txt": "/globalmovie/static/js/2.49602ed6.chunk.js.LICENSE.txt",
     "static/media/HomeView.css": "/globalmovie/static/media/woman_eating.c377c3fb.jpg",
     "static/media/AboutView.css": "/globalmovie/static/media/couple.60797df0.jpg",
     "static/media/FourOFour.css": "/globalmovie/static/media/ofGravity.f70295b5.jpg",
-    "static/media/FavouritesView.css": "/globalmovie/static/media/popcorn.972bff64.jpg"
+    "static/media/UpcomingView.css": "/globalmovie/static/media/people.16c7b02c.jpg",
+    "static/media/NowPlayingView.css": "/globalmovie/static/media/popcorn.972bff64.jpg",
+    "static/media/HighestRankView.css": "/globalmovie/static/media/window.0207dd53.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9184e752.js",
-    "static/js/2.665026ba.chunk.js",
-    "static/css/main.215a5905.chunk.css",
-    "static/js/main.2d6fedc8.chunk.js"
+    "static/js/runtime-main.5e4e4b26.js",
+    "static/js/2.49602ed6.chunk.js",
+    "static/css/main.0b44b28b.chunk.css",
+    "static/js/main.54fe2c6e.chunk.js"
   ]
 }
