@@ -12,16 +12,13 @@
   place-items: center;
   font-size: 1.5rem;
   text-align: center;
-  position: relative;
 }
 .card__wrapper {
-  position: absolute;
   height: fit-content;
-  top: 20%;
 }
 @media screen and (max-width: 700px) {
   .card__wrapper {
-    top: 0%;
+    margin-top: 10%;
   }
 }
 .paragraph__container {
